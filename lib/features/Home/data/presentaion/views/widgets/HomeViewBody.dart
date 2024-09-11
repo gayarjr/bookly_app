@@ -3,6 +3,7 @@ import 'package:bookly_app/core/Utls/style.dart';
 import 'package:bookly_app/features/Home/data/presentaion/views/widgets/CoustemAppBar.dart';
 import 'package:bookly_app/features/Home/data/presentaion/views/widgets/custem_list_view_item.dart';
 import 'package:bookly_app/features/Home/data/presentaion/views/widgets/featuered_list_view.dart';
+import 'package:bookly_app/features/constant.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -20,10 +21,7 @@ class HomeViewBody extends StatelessWidget {
           const SizedBox(
             height: 50,
           ),
-          Text(
-            'Best Seller ',
-            style: Styles.titlemeduim,
-          ),
+          Text('Best Seller ', style: Styles.textStyle18),
           BestSellerListViewItem(),
         ],
       ),
@@ -52,9 +50,6 @@ class BestSellerListViewItem extends StatelessWidget {
                 ),
               ),
             ),
-          ),
-          Column(
-            children: [],
           ),
         ],
       ),
