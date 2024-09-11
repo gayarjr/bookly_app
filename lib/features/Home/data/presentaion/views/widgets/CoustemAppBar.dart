@@ -8,7 +8,10 @@ class CoustemAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 16, top: 20, bottom: 20, left: 20),
+      padding: const EdgeInsets.only(
+        top: 20,
+        bottom: 20,
+      ),
       child: Row(
         children: [
           Image.asset(
