@@ -52,7 +52,6 @@ class BestSellerListViewItem extends StatelessWidget {
                   height: 3,
                 ),
                 Container(
-                  color: Colors.red,
                   child: Row(
                     children: [
                       Text(
@@ -61,7 +60,7 @@ class BestSellerListViewItem extends StatelessWidget {
                             .copyWith(fontWeight: FontWeight.bold),
                       ),
                       const Spacer(),
-                      boookRaiting(),
+                      BookRating(),
                     ],
                   ),
                 )
