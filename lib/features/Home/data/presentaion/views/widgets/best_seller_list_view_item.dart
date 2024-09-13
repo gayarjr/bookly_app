@@ -44,7 +44,7 @@ class BestSellerListViewItem extends StatelessWidget {
                       'Harry Potter and Goblet of fire fire fire fire fire fire fire fires',
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      style: Styles.textStyle20,
+                      style: Styles.textStyle30,
                     ),
                   ),
                   SizedBox(
@@ -62,7 +62,7 @@ class BestSellerListViewItem extends StatelessWidget {
                       children: [
                         Text(
                           '99.9 ^',
-                          style: Styles.textStyle20
+                          style: Styles.textStyle30
                               .copyWith(fontWeight: FontWeight.bold),
                         ),
                         const Spacer(),

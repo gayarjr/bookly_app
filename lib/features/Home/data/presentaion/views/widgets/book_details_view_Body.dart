@@ -1,5 +1,6 @@
+import 'package:bookly_app/core/Utls/style.dart';
 import 'package:bookly_app/features/Home/data/presentaion/views/widgets/custem_book_details_appbar.dart';
-import 'package:bookly_app/features/Home/data/presentaion/views/widgets/cutstem_book_item.dart';
+import 'package:bookly_app/features/Home/data/presentaion/views/widgets/custem_list_view_item.dart';
 import 'package:flutter/material.dart';
 
 class BookDetailsViewBody extends StatelessWidget {
@@ -14,8 +15,26 @@ class BookDetailsViewBody extends StatelessWidget {
         children: [
           CustemBookdetailsAppBar(),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: width * .17),
+            padding: EdgeInsets.symmetric(horizontal: width * .2),
             child: CustemBookItem(),
+          ),
+          const SizedBox(
+            height: 43,
+          ),
+          Text(
+            'the Jungle Book',
+            style: Styles.textStyle30.copyWith(fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(
+            height: 6,
+          ),
+          Opacity(
+            opacity: .7,
+            child: Text(
+              ' hong kong',
+              style: Styles.textStyle18.copyWith(
+                  fontStyle: FontStyle.italic, fontWeight: FontWeight.w500),
+            ),
           ),
         ],
       ),

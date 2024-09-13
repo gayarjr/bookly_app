@@ -1,4 +1,4 @@
-import 'package:bookly_app/features/Home/data/presentaion/views/widgets/cutstem_book_item.dart';
+import 'package:bookly_app/features/Home/data/presentaion/views/widgets/custem_list_view_item.dart';
 import 'package:flutter/material.dart';
 
 class featuerdboxlistview extends StatelessWidget {
