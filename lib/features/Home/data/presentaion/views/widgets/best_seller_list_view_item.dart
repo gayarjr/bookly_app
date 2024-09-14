@@ -39,6 +39,7 @@ class BestSellerListViewItem extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
+                    height: 50,
                     width: MediaQuery.of(context).size.width * .5,
                     child: Text(
                       'Harry Potter and Goblet of fire fire fire fire fire fire fire fires',
@@ -48,14 +49,14 @@ class BestSellerListViewItem extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 7,
+                    height: 3,
                   ),
                   Text(
                     'J.K Rowling ',
                     style: Styles.textStyle14,
                   ),
                   SizedBox(
-                    height: 3,
+                    height: 2,
                   ),
                   Container(
                     child: Row(
