@@ -26,7 +26,8 @@ class BookApp extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (context) =>
-              FeaturesBooksCubit(getIt.get<HomeRepoImpelemention>()),
+              FeaturesBooksCubit(getIt.get<HomeRepoImpelemention>())
+                ..fetchFeaturebooks(),
         ),
         BlocProvider(
           create: (context) =>
